@@ -20,9 +20,10 @@ button {
     margin: 50px 50px;
     padding: .75em 2em;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 560px) {
     .wrapper {
         width: 100%;
+        min-width: none;
     }
     iframe {
         width: 100%
