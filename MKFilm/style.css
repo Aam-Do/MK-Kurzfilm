@@ -25,6 +25,13 @@ button {
         width: 100%;
         min-width: none;
     }
+    header {
+        padding: 0 2%;
+    }
+    button {
+        margin: 20px 20px;
+        padding: .5em 1.5em;
+    }
     iframe {
         width: 100%
     }
