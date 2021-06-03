@@ -1,16 +1,18 @@
-html {
+html, body {
     background-image: url('6kIbad.jpg');
+    height: 100%;
+    margin: 0 auto;
 }
 .wrapper {
-    background-color: #0d0c13b4;
+    background: linear-gradient(90deg, #070916e8 0%, #1a192e7c 50%, #090b1adc 100%);
     width: 50%;
+    height: 100%;
     margin: 0 auto;
     text-align: center;
     min-width: min-content;
 }
 header {
     color: white;
-    margin-top: -25px;
     padding-top: 50px;
     margin-bottom: 100px;
 }
