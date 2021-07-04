@@ -42,7 +42,10 @@ function buttonClick (id: number): void {
             if (id == 0 || id == 1) {
                 allButtons.push({id: 2, content: "Spazieren gehen"}, {id: 3, content: "Zuhause bleiben"});
             }
-            else if (id == 2 || id == 9) {
+            else if (id == 2) {
+                allButtons.push({id: 13, content: "Wasser kaufen"}, {id: 14, content: "Ohne Wasser spazieren gehen"});
+            }
+            else if (id == 13 || id == 14 || id == 9) {
                 allButtons.push({id: 4, content: "Auf dem Weg bleiben"}, {id: 5, content: "Rascheln nachgehen"});
             }
             else if (id == 3) {
