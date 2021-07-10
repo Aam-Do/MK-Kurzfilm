@@ -19,6 +19,7 @@ header {
 button {
     margin: 50px 50px;
     padding: .75em 2em;
+    cursor: pointer;
 }
 p {
     position: absolute;
@@ -29,6 +30,7 @@ p {
     color: white;
     padding: 30px;
     width: 460px;
+    cursor: pointer;
 }
 .hidden {
     display: none;
