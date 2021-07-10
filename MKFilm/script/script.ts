@@ -112,3 +112,11 @@ function buttonClick (id: number): void {
 function hide(): void {
     p.classList.add("hidden");
 }
+
+function egg(): void {
+    video.src = "";
+    allButtons.length = 0;
+    video.src = "https://www.youtube.com/embed/O91DT1pR1ew";
+    allButtons.push({id: 12, content: "Restart"});
+    drawButtons();
+}

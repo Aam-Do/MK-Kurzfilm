@@ -107,4 +107,11 @@ function buttonClick(id) {
 function hide() {
     p.classList.add("hidden");
 }
+function egg() {
+    video.src = "";
+    allButtons.length = 0;
+    video.src = "https://www.youtube.com/embed/O91DT1pR1ew";
+    allButtons.push({ id: 12, content: "Restart" });
+    drawButtons();
+}
 //# sourceMappingURL=script.js.map

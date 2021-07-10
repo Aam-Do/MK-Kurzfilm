@@ -21,6 +21,15 @@ button {
     padding: .75em 2em;
     cursor: pointer;
 }
+h6 {
+    background-color: rgb(8, 15, 27);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+}
 p {
     position: absolute;
     top: 590px;
