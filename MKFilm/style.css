@@ -48,4 +48,8 @@ p {
     iframe {
         width: 100%
     }
+    p {
+        width: 100%;
+        top: 600px;
+    }
 }
